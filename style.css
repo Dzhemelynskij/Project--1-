@@ -13,6 +13,44 @@ body {
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
+.button-first {
+  position: absolute;
+  top: 30px;
+  right: 470px;
+  background-color: #ffffff;
+  border: 2px solid #1e2939;
+  font-size: 16px;
+  padding: 15px 20px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+.button-first:hover {
+  background-color: #1e2939;
+  color: #ffffff;
+}
+
+.button-second {
+  position: absolute;
+  top: 30px;
+  right: 370px;
+  background-color: #ffffff;
+  border: 2px solid #1e2939;
+  font-size: 16px;
+  padding: 15px 20px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+.button-second:hover {
+  background-color: #1e2939;
+  color: #ffffff;
+}
+
 aside {
   width: 391px;
   background: #1e2939;
@@ -54,6 +92,16 @@ aside {
 }
 
 .tech-skills-block {
+  margin-top: 47px;
+  margin-left: 40px;
+}
+
+.language-block {
+  margin-top: 47px;
+  margin-left: 40px;
+}
+
+.hobby-block {
   margin-top: 47px;
   margin-left: 40px;
 }
@@ -123,6 +171,13 @@ h1 {
 }
 
 .job-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.study-name {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
