@@ -35,10 +35,6 @@ aside {
   margin-left: 5px;
 }
 
-.bold {
-  font-weight: 700;
-}
-
 .list-secondary {
   color: #fb6d3a;
   font-size: 16px;
@@ -60,6 +56,11 @@ aside {
 .tech-skills-block {
   margin-top: 47px;
   margin-left: 40px;
+}
+
+.bold {
+  font-weight: 700px;
+  padding-right: 5px;
 }
 
 main {
